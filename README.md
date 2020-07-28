@@ -1,2 +1,4 @@
 # New-York-Time
-newspaper exercise
+newspaper
+
+This repository is an layout excercise
