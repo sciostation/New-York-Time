@@ -1,11 +1,12 @@
 body{
-   margin: 0px 50px;
+   margin: 30px 200px;
     
 }
 .container{
     display: grid;
     grid-template-columns: 200px 1fr 100px;
     grid-template-rows: 60px 30px auto 500px 1fr;
+    grid-gap:10px;
 }
 .header{
     grid-column: 2 / 3;
@@ -18,7 +19,7 @@ body{
     font-family: NewYorkTimes;
     src: url(/Fount/NewYorkTimes.ttf);
     margin: 0px;
-    font-size: 40px;
+    font-size: 50px;
     
 }
 .subcabecera{
@@ -37,24 +38,58 @@ body{
     grid-column: 1 / 2;
     grid-row: 3 / -1;
     text-align: center;
+    padding-right: 10px;
+    border-right: 1px solid black;
 }
 
-.first--column h2{
+.first--column h2, h3, h4{
     text-justify: newspaper;
     margin: 0px;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+.first--column hr{
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 2px;
+    width: 40%;
+    background-color: black;    
+}
+.first--column p{
+    margin: 0px;
+    text-align: justify;
 }
 
 .Principal--News{
    grid-column: 2 / 3;
+   border-bottom: 1px solid black;
 }
 
 .Principal--News img{
     width: 100%;
-    padding: 10px 5px;
 }
 
 .Principal--News p{
     margin: 0px;
-    padding-left: 10px;
+    text-align: justify;
+}
+.second--news{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.second--news__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 1fr;
+}
+.second--news__container h2{
+    margin: 0px;
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    font-style: italic;
+}
+.second--news__container item{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
