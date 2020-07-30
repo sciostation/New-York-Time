@@ -19,8 +19,7 @@ body{
     font-family: NewYorkTimes;
     src: url(/Fount/NewYorkTimes.ttf);
     margin: 0px;
-    font-size: 50px;
-    
+    font-size: 50px;   
 }
 hr{
     margin-left: 30%;
@@ -40,7 +39,7 @@ hr{
 .subcabecera p{
     margin: 0px;    
 }
-
+/*Style for the first column (left)*/
 .first--column{
     grid-column: 1 / 2;
     grid-row: 3 / -1;
@@ -53,6 +52,7 @@ hr{
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .first--column hr{
     margin-left: 30%;
@@ -65,7 +65,7 @@ hr{
     margin: 0px;
     text-align: justify;
 }
-
+/*Style for the principal news column center*/
 .Principal--News{
    grid-column: 2 / 3;
    border-bottom: 1px solid black;
@@ -79,6 +79,7 @@ hr{
     margin: 0px;
     text-align: justify;
 }
+/*Style for the second news column center (Politic)*/
 .second--news{
     grid-column: 2 / 3;
     grid-row: 4 / 5;
@@ -102,7 +103,7 @@ hr{
 .second--news__container h5{
     text-align: center;
     margin: 0px;
-    padding: 5px;
+    padding-bottom: 25px;
 }
 .second--news__container hr{
     padding: 0px;
@@ -111,6 +112,7 @@ hr{
     height: 2px;
     width: 50%;
 }
+/*Style for the thrird news column center (Art)*/
 .third--news{
     grid-column: 2 / 3;
     grid-row: 5 / 6;
@@ -141,27 +143,28 @@ hr{
     width: 100%;
 }
 .third--news__text p{
-    margin: 0px;
-}
-.third--news__text item{
-    justify-content: left;
-    align-items: center;
-    width: 40%;
+    margin: 0px;   
 }
 .third--news__text h4{
     text-align: center;
-    margin-left: 5%;
-    margin-right: 75%;
     padding-bottom: 2px;
+   
     
 }
 .third--news__text hr{
-    margin: 0% 75% 5% 5%;
+    margin: 0% 15% 0% 15%;
     height: 2px;
-    width: 20%;
+    width: 70%;
     background-color: black;    
 }
+.highlight{
+    float: left;
+    padding: 15px;
+    shape-outside: inset(20px 20px 20px 20px);
+    shape-margin: 100px;   
+}
 
+/*Style for the margin right (white space - rigth)*/
 .margin--right{
     grid-column: 3 / 4;
     grid-row: 3 / -1;
