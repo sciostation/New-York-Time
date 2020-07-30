@@ -1,6 +1,5 @@
 body{
-   margin: 30px 200px;
-    
+   margin: 30px 200px;    
 }
 .container{
     display: grid;
@@ -28,7 +27,7 @@ hr{
     width: 40%;
     background-color: black;    
 }
-.subcabecera{
+.subheading{
     grid-column: 1 / -1;
     grid-row: 2 / 3;
     text-align: left;
@@ -36,7 +35,7 @@ hr{
     border-top: 1px solid black;
     padding-left: 20px; 
 }
-.subcabecera p{
+.subheading p{
     margin: 0px;    
 }
 /*Style for the first column (left)*/
@@ -47,7 +46,6 @@ hr{
     padding-right: 10px;
     border-right: 1px solid black;
 }
-
 .first--column h2, h3, h4, h5{
     margin: 0px;
     padding-top: 10px;
@@ -70,11 +68,9 @@ hr{
    grid-column: 2 / 3;
    border-bottom: 1px solid black;
 }
-
 .Principal--News img{
     width: 100%;
 }
-
 .Principal--News p{
     margin: 0px;
     text-align: justify;
@@ -147,9 +143,7 @@ hr{
 }
 .third--news__text h4{
     text-align: center;
-    padding-bottom: 2px;
-   
-    
+    padding-bottom: 2px;   
 }
 .third--news__text hr{
     margin: 0% 15% 0% 15%;
@@ -163,7 +157,6 @@ hr{
     shape-outside: inset(20px 20px 20px 20px);
     shape-margin: 100px;   
 }
-
 /*Style for the margin right (white space - rigth)*/
 .margin--right{
     grid-column: 3 / 4;
